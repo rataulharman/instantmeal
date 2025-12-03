@@ -38,3 +38,33 @@ html, body {
   justify-content:space-between;
   gap: 1.6rem;
 }
+
+.brand {
+  display:flex;
+  align-items:center;
+  gap: 1rem;
+}
+
+.logo{
+  width:52px;
+  height:52px;
+  border-radius:12px;
+  display:grid;
+  place-items:center;
+  background: var(--cream);
+  color: var(--brown-dark);
+  font-size:2.2rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.brand-name{
+  font-size:2.2rem;
+  line-height:1;
+  margin-bottom:0.2rem;
+}
+
+.brand-sub{
+  font-size:1.2rem;
+  color: rgba(255,255,255,0.9);
+  margin-top:0.2rem;
+}
