@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@import "./reset.css";
+
+:root{
+  --brown-dark: #4A2C2A;    
+  --brown-medium: #6B3E3A;
+  --cream: #F7F1E8;         
+  --white: #ffffff;
+  --muted: #7a6b66;
+  --accent: #C08A63;
+  --map-height: 440px;
+  --radius: 1.0rem;
+}
+
+html, body {
+  height: 100%;
+  background-color: var(--cream);
+  color: var(--brown-dark);
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+}
+
+.container {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+}
