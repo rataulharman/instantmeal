@@ -24,3 +24,17 @@ html, body {
   width: min(1100px, 92%);
   margin: 0 auto;
 }
+
+.site-header {
+  background: linear-gradient(90deg, var(--brown-dark), var(--brown-medium));
+  color: var(--white);
+  padding: 1.6rem 0;
+  box-shadow: 0 6px 18px rgba(74,44,42,0.12);
+}
+
+.header-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap: 1.6rem;
+}
