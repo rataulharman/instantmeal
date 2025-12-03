@@ -130,7 +130,7 @@ html, body {
 .map-intro h3{ 
   margin-bottom: .4rem; 
   color:var(--brown-dark);
-
+  font-size: 22px;
 }
 
 .map-intro p{ 

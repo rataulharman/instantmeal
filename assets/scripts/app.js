@@ -38,7 +38,6 @@ function disableMapControls() {
     map.touchZoomRotate.disable();
 }
 
-
 function startTracking() {
     if ('geolocation' in navigator) {
         navigator.geolocation.watchPosition(
