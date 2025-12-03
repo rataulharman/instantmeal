@@ -126,7 +126,9 @@ html, body {
   grid-template-columns: 1fr;
   gap: 1.4rem;
 }
+
 .map-intro h3{ margin-bottom: .4rem; color:var(--brown-dark); }
+
 .map-intro p{ color: var(--muted); font-size:1.4rem; }
 
 .map{
