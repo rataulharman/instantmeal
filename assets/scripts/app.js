@@ -27,7 +27,7 @@ function getLocation(position) {
 
 
 function errorHandler() {
-    console.log('Unable to retrieve your location');
+    console.log('Unable to find your location');
 }
 
 function disableMapControls() {
