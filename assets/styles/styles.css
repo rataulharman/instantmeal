@@ -9,7 +9,7 @@
   --muted: #7a6b66;
   --accent: #C08A63;
   --map-height: 440px;
-  --radius: 1.0rem;
+  --radius: 14px;
 }
 
 html, body {
@@ -28,7 +28,7 @@ html, body {
 .site-header {
   background: linear-gradient(90deg, var(--brown-dark), var(--brown-medium));
   color: var(--white);
-  padding: 1.6rem 0;
+  padding: 22px 0;
   box-shadow: 0 6px 18px rgba(74,44,42,0.12);
 }
 
@@ -36,13 +36,13 @@ html, body {
   display:flex;
   align-items:center;
   justify-content:space-between;
-  gap: 1.6rem;
+  gap: 22px;
 }
 
 .brand {
   display:flex;
   align-items:center;
-  gap: 1rem;
+  gap: 14px;
 }
 
 .logo{
@@ -53,35 +53,37 @@ html, body {
   place-items:center;
   background: var(--cream);
   color: var(--brown-dark);
-  font-size:2.2rem;
+  font-size:31px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
 }
 
 .brand-name{
-  font-size:2.2rem;
+  font-size:31px;
   line-height:1;
-  margin-bottom:0.2rem;
+  margin-bottom:3px;
 }
 
 .brand-sub{
-  font-size:1.2rem;
+  font-size:17px;
   color: rgba(255,255,255,0.9);
-  margin-top:0.2rem;
+  margin-top:3px;
 }
 
 .main-nav ul{
   display:flex;
-  gap:1.2rem;
+  gap:17px;
   align-items:center;
   list-style:none;
 }
+
 .main-nav a{
   color: rgba(255,255,255,0.95);
   text-decoration:none;
   font-weight:600;
-  padding: 0.6rem 0.8rem;
-  border-radius: .6rem;
+  padding: 8px 11px;
+  border-radius: 9px;
 }
+
 .main-nav a:hover,
 .main-nav a:focus{
   background: rgba(255,255,255,0.06);
@@ -91,8 +93,8 @@ html, body {
 .btn{
   background: var(--brown-dark);
   color: var(--cream);
-  padding: 0.7rem 1.2rem;
-  border-radius: .8rem;
+  padding: 10px 17px;
+  border-radius: 11px;
   border: none;
   font-weight:600;
   box-shadow: 0 6px 14px rgba(74,44,42,0.12);
@@ -101,41 +103,44 @@ html, body {
 .btn:hover { transform: translateY(-1px); }
 
 .hero {
-  padding: 3.6rem 0;
+  padding: 50px 0;
   text-align:center;
 }
+
 .hero-title{
-  font-size: 3.2rem;
+  font-size: 45px;
   color: var(--brown-dark);
-  margin-bottom: .8rem;
+  margin-bottom: 11px;
 }
+
 .hero-lead{
-  font-size: 1.6rem;
+  font-size: 22px;
   color: var(--muted);
-  margin-bottom: .6rem;
+  margin-bottom: 8px;
 }
+
 .hero-tag{
   color: var(--accent);
   font-weight: 700;
-  margin-top: .8rem;
+  margin-top: 11px;
 }
 
 .map-section{
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1.4rem;
+  gap: 20px;
   text-align: center;
 }
 
 .map-intro h3{ 
-  margin-bottom: .4rem; 
+  margin-bottom: 6px; 
   color:var(--brown-dark);
   font-size: 22px;
 }
 
 .map-intro p{ 
   color: var(--muted); 
-  font-size:1.4rem; 
+  font-size:20px; 
 }
 
 .map{
@@ -148,19 +153,20 @@ html, body {
 }
 
 .site-footer{
-  margin-top: 3.2rem;
-  padding: 1.4rem 0;
+  margin-top: 45px;
+  padding: 20px 0;
   background: linear-gradient(90deg, rgba(74,44,42,0.95), rgba(74,44,42,0.9));
   color: var(--cream);
   text-align:center;
 }
 
-.footer-inner p{ font-size: 1.3rem; }
-
+.footer-inner p{ 
+  font-size: 18px; 
+}
 
 @media (min-width: 800px){
   .map-section { grid-template-columns: 1fr; }
-  .header-inner { gap: 2.4rem; }
-  .brand-name { font-size: 2.4rem; }
-  .hero-title{ font-size: 3.8rem; }
+  .header-inner { gap: 34px; }
+  .brand-name { font-size: 34px; }
+  .hero-title{ font-size: 53px; }
 }
