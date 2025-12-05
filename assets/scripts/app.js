@@ -30,7 +30,7 @@ function locationError() {
     console.log("Unable to retrieve your location.");
 }
 
-function lockMap() {
+function disableMapControl() {
     map.dragPan.disable();
     map.keyboard.disable();
     map.scrollZoom.disable();
@@ -50,7 +50,7 @@ function initTracking() {
         geoOptions
     );
 
-    lockMap();
+    disableMapControl();
 }
 
 initTracking();
