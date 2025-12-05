@@ -9,7 +9,7 @@ This project uses the Geolocation API and Mapbox Maps API to display the user’
 - Map controls disabled for a clean tracking-style view.
 
 ## Live Website    
-**link**
+**[Click Here](https://rataulharman.github.io/instantmeal/)**
 
 ## APIs Used  
 ### Mapbox Maps API  
